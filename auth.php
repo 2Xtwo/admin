@@ -4,7 +4,7 @@ header('Content-Type: application/json');
 
 // In a real application, use a secure database and password hashing
 $valid_username = 'admin';
-$valid_password = 'admin123';
+$valid_password = 'Admin123';
 
 $username = $_POST['username'] ?? '';
 $password = $_POST['password'] ?? '';
