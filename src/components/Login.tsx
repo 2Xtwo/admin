@@ -13,18 +13,19 @@ export default function Login() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError('');
+    
     try {
       const success = await login(username, password);
-      console.log('Login success:', success);
       if (success) {
         navigate('/admin');
       } else {
         setError('Invalid credentials');
       }
     } catch (err) {
-      console.error('Login error:', err);
       setError('An error occurred. Please try again.');
-    }    
+    }
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 flex items-center justify-center p-4">
       <div className="max-w-md w-full space-y-8 bg-white/10 backdrop-blur-lg p-8 rounded-xl shadow-2xl">

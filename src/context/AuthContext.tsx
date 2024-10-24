@@ -21,13 +21,12 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
 
   const login = async (username: string, password: string) => {
     // In a real app, validate against your backend
-    if (username === 'admin' && password === 'admin123') {
+    if (username === 'admin' && password === 'Admin123') {
       setIsAuthenticated(true);
       return true;
     }
     return false;
   };
-
   const logout = () => {
     setIsAuthenticated(false);
   };
