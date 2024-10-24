@@ -1,0 +1,433 @@
+/* start-pdf-content  */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;/
+}
+
+ul li {
+    list-style: none;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.lableTxt {
+    color: #4682B4;
+    font-size: 15px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0px auto;
+    background-color: #002060;
+    padding: 5px 35px;
+}
+
+.header {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    color: #FC766A;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+
+.logo img {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.input-box label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.boxLg {
+    background-color: #f5f5f5;
+    padding: 4px;
+    margin-bottom: 20px;
+    color: #333;
+    height: 70px;
+    border: 3px solid #FC766A;
+}
+
+.box label {
+    color: #58267e;
+}
+
+.lableBox {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.boxMd {
+    background-color: #f5f5f5;
+    padding: 4px;
+    margin-bottom: 20px;
+    color: #333;
+    height: 50px;
+    border: 3px solid #FC766A;
+}
+
+.w_50 {
+    width: 47%;
+}
+
+.w_30 {
+    width: 27%;
+}
+
+.w_70 {
+    width: 73%;
+}
+
+.ratings-section {
+    background-color: #f5f5f5;
+    margin-bottom: 20px;
+    color: #4682B4;
+    height: auto;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.flexItem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.star {
+    color: gold;
+    font-size: 25px;
+}
+
+.overall-section {
+    display: flex;
+    background-color: #f5f5f5;
+    color: #4682B4;
+    border: 3px solid red;
+    margin-bottom: 20px;
+    padding: 5px 10px
+}
+
+.overall-section .boldtdTxt {
+    font-size: 45px;
+    text-align: center;
+    color: #4682B4;
+}
+
+.overall-section .mdTxt {
+    font-size: 12px;
+    text-align: center;
+    color: #4682B4;
+}
+
+.overall-section p {
+    font-size: 9px;
+    color: #4682B4;
+}
+
+.left-content {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.left-content h2 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 7px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rating img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.rating span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.left-content p {
+    font-size: 11px;
+    color: #4682B4;
+}
+
+
+
+.right-content {
+    width: 20%;
+    text-align: center;
+    padding: 5px;
+}
+
+.right-content h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 26px;
+    color: #336699;
+    margin-bottom: 2px;
+}
+
+.right-content p {
+    font-size: 12px;
+    color: #336699;
+    font-weight: bold;
+}
+
+.leadershipAndVision table,
+.CultureAndCommunication table,
+.TeachingAndLearning table,
+.HealthSafetyandWellbeing table,
+.AdministrationManagement table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin-top: 14px;
+}
+
+.leadershipAndVision table,
+.leadershipAndVision th,
+.leadershipAndVision td {
+    border: 3px solid #002060;
+    border-collapse: collapse;
+}
+
+.leadershipAndVision th,
+.leadershipAndVision td {
+    background-color: #73D393;
+    color: black;
+    padding: 1px;
+}
+
+.CultureAndCommunication table,
+.CultureAndCommunication th,
+.CultureAndCommunication td {
+    border: 3px solid #002060;
+    border-collapse: collapse;
+}
+
+.CultureAndCommunication th,
+.CultureAndCommunication td {
+    background-color: #FFB28F;
+    color: black;
+    padding: 1px;
+}
+
+.TeachingAndLearning table,
+.TeachingAndLearning th,
+.TeachingAndLearning td {
+    border: 3px solid #002060;
+    border-collapse: collapse;
+}
+
+.TeachingAndLearning th,
+.TeachingAndLearning td {
+    background-color: #82B7E2;
+    color: black;
+    padding: 1px;
+}
+
+.HealthSafetyandWellbeing table,
+.HealthSafetyandWellbeing th,
+.HealthSafetyandWellbeing td {
+    border: 3px solid #002060;
+    border-collapse: collapse;
+}
+
+.HealthSafetyandWellbeing th,
+.HealthSafetyandWellbeing td {
+    background-color: #D7C49F;
+    color: black;
+    padding: 1px;
+}
+
+.AdministrationManagement table,
+.AdministrationManagement th,
+.AdministrationManagement td {
+    border: 3px solid #002060;
+    border-collapse: collapse;
+}
+
+.AdministrationManagement th,
+.AdministrationManagement td {
+    background-color: #E2D1F9;
+    color: black;
+    padding: 1px;
+}
+
+
+.leadershipAndVision td.title,
+.CultureAndCommunication td.title,
+.TeachingAndLearning td.title,
+.HealthSafetyandWellbeing td.title,
+.AdministrationManagement td.title {
+    width: 20%;
+    font-weight: bold;
+    padding: 1px;
+    text-align: end;
+    font-size: 13px;
+    color: black;
+}
+
+.leadershipAndVision td:last-child,
+.CultureAndCommunication td:last-child,
+.TeachingAndLearning td:last-child,
+.HealthSafetyandWellbeing td:last-child,
+.AdministrationManagement td:last-child {
+    width: 80%;
+    vertical-align: top;
+    font-size: 14px;
+}
+
+.tableRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+    gap: 10px;
+}
+
+.star {
+    font-size: 2rem;
+    margin-right: 10px;
+    color: silver;
+}
+
+.silver-star {
+    color: silver;
+}
+
+.gold-star {
+    color: gold;
+    font-size: 35px;
+}
+
+.gold-starSm {
+    font-size: 25px;
+    text-align: center;
+}
+
+.Innovator {
+    color: #FFD700;
+}
+
+.Incorporator {
+    color: #FFD700;
+}
+
+.Implementor {
+    color: #DAA520;
+}
+
+.Improver {
+    color: #1E90FF;
+}
+
+.Trailer {
+    color: #C0C0C0;
+}
+
+.tdTxt {
+    text-align: end;
+    margin-bottom: 5px;
+}
+
+.footer {
+    margin-top: 10px;
+    padding-top: 8px;
+}
+
+.footer h1 {
+    color: #FC766A;
+    font-size: 16px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.footer p {
+    font-size: 12px;
+}
+
+.footer ul li {
+    font-size: 11px;
+}
+
+.tableTxtBOld {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.tabletxt {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+
+.transparent {
+    background-color: rgba(91, 132, 177, 0.5); 
+    opacity: 0.7; 
+}
+
+.transparent-button {
+    background-color: transparent !important; 
+    border: 1px solid rgba(255, 255, 255, 0.5); 
+    color: rgba(255, 255, 255, 0.8) !important; 
+    opacity: 0.8; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.transparent-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 1); 
+    opacity: 1; 
+}
